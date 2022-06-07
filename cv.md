@@ -10,18 +10,17 @@
 ### Progects: https://github.com/AliaksaPlh/rsschool-cv/tree/main
 ### Working-experience:
 #### January 2020 - February 2022 - Purchasing Specialist at JSC "MAZ". 
-##### Skills: 
+#### March 2019 - June 2021 - BPS-Sberbank contact center specialist 
+##### Skills:
 - making and concluding contracts
 - negotiation
+- telephone negotiation
 - tendering
 - business correspondence
 - production supply
 - work with claims and complaints
 - English language
 - document flow
-#### March 2019 - June 2021 - BPS-Sberbank contact center specialist 
-##### Skills: 
-- telephone negotiation
 - diction
 - stress tolerance
 - customer focus
