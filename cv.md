@@ -11,7 +11,7 @@
 ### Working-experience:
 #### January 2020 - February 2022 - Purchasing Specialist at JSC "MAZ". 
 #### March 2019 - June 2021 - BPS-Sberbank contact center specialist 
-##### Skills:
+### Skills:
 - making and concluding contracts
 - negotiation
 - telephone negotiation
