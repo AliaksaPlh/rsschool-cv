@@ -14,165 +14,239 @@
         <link rel="icon" href="/favicon.svg" type="image/svg+xml">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
     <header>
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-            </ul>
-        </nav>
-        <div class="conteiner">Div</div>
-        <h1>CV Aliaksandra Palkhouskaya </h1>
+        <div class="nav-conteiner">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link"> <span class="nav-item">Contacts</span>
+                        </a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link"><span class="nav-item">Summary</span></a>
+                    </li>
+                    <li class="nav-item"><a href="#education" class="nav-link"><span
+                                class="nav-item">Education</span></a>
+                    </li>
+                    <li class="nav-item"><a href="#skills" class="nav-link"><span class="nav-item">Skills</span></a>
+                    </li>
+                    <li class="nav-item"><a href="#languages" class="nav-link"><span
+                                class="nav-item">Languages</span></a>
+                    </li>
+                    <li class="nav-item"><a href="#code_example" class="nav-link"><span class="nav-item">Code
+                                example</span></a></li>
+                    <li class="nav-item"><a href="#progects" class="nav-link"><span class="nav-item">Progects</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="me">
+            <div class="photo-conteiner">
+                <img class="photo" src="assets/img/photo2.JPG" alt="My photo" width="259px" height="300">
+            </div>
+            <div class="name-conteiner">
+                <h1 class="name">Aliaksandra Palkhouskaya </h1>
+                <h2 class="occupation">Junior Frontend-developer</h2>
+            </div>
+        </div>
+
     </header>
+
+
     <main>
-        <article class="contacts">
-            <h2>Contacts:</h2>
-            <ul class="contacts_list">
-                <li> e-mail:<a class="email_link" href="mailto:sashvero@gmail.com"
-                        title="Send an email">sashvero@gmail.com</a> </li>
-                <li> <a class="linkedin_link" href="https://www.linkedin.com/in/aliaksandra-palkhouskaya-626a20158/"
-                        title="My Linkedin link" target="_blank">Linkedin</a>
-                <li> <a class="github_link" href="https://github.com/AliaksaPlh" title="Go to my GitHub"
-                        target="_blank">GitHub</a> </li>
-                <li> Discord: AliaksaPlh (<a class="discord_link" href="https://discord.com/channels/@me"
-                        title="Discord" target="_blank"> @aliaksaplh</a>)
-                </li>
+        <div class="container">
+            <div class="left-conteiner">
+                <div class="left-conteiner-elements">
 
-            </ul>
-        </article>
+                    <div class="contacts" id="contacts">
+                        <h2 class="contacts">Contacts:</h2>
+                        <ul class="contacts-list">
+                            <li>
+                                <img src="assets/img/gmail_icon.ico" alt="Gmail Icon" width="20" height="20">
+                                <a class="email-link" href="mailto:sashvero@gmail.com"
+                                    title="Send an email">sashvero@gmail.com</a>
+                            </li>
+                            <li>
+                                <img src="assets/img/inkedin_social_icon.ico" alt="Linkedin Icon" width="25"
+                                    height="25">
 
-        <article class="about_me">
-            <h2>About me:</h2>
-            <p>I desided to change my job and my life. Althought having no experience in programming but having great
-                resorces of patience and desire, I'm currently taking my RS School Stage0 Course to become Front-End
-                Developer and get a new job.</p>
-        </article>
-        <article class="education">
-            <h2>Education</h2>
-            <div class="university_conteiner">
-                <h3>University</h3>
-                <ul class="education_list">
-                    <li>2016-2020 <abbr title="Belarusian State Economic University
-">BSEU</abbr> Faculty of Finance and Banking. Specialty - Economist</li>
-                    <li>2012-2016 English courses OkWORD from B1 to B2 </li>
-                    <li>2011-2014гг. Children's Music School No. 1 in Pinsk</li>
-                </ul>
-            </div>
-            <div class="courses_conteiner">
-                <h3>Courses</h3>
-                <ul class="courses_list">
-                    <li>
-                        2022 - <a href="https://www.udemy.com/course/photoshop-2021-f/"
-                            title="Go to course on Udemy.com" target="_blank">Adobe
-                            Photoshop 2023 -
-                            from zero to result by Dmitrii Fokeev</a> </li>
-                    <li>
-                        2022 - <a href="https://www.udemy.com/course/adobe-photoshop-2021/"
-                            title="Go to course on Udemy.com" target="_blank">Adobe Photoshop
-                            Course - (Advanced) by Dmitrii Fokeev</a>
-                    </li>
-                    <li>
-                        2023 - <a href="https://www.udemy.com/course/web-figma-ui/" title="Go to course on Udemy.com"
-                            target="_blank">Web design in Figma 2023
-                            - from
-                            scratch to result, UX/UI basics by Dmitrii Fokeev</a>
-                    </li>
-                    <li>
-                        2023 - <a href="https://www.w3schools.com/html/default.asp" title="Go to course"
-                            target="_blank">HTML W3schools</a>
-                        Course
-                    </li>
-                    <li>
-                        2023 - <a href="https://developer.mozilla.org/ru/docs/Web/HTML" title="Go to course"
-                            target="_blank">MDN HTML </a>Course
-                    </li>
-                    <li>2023 -
-                        <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS" title="Go to course"
-                            target="_blank">MDN CSS </a>Course
-                    </li>
-                </ul>
-            </div>
-        </article>
+                                <a class="linkedin-link"
+                                    href="https://www.linkedin.com/in/aliaksandra-palkhouskaya-626a20158/"
+                                    title="My Linkedin link" target="_blank">Linkedin</a>
+                            <li>
+                                <img src="assets/img/github_icon.png" alt="Github Icon" width="20" height="20">
+                                <a class="github-link" href="https://github.com/AliaksaPlh" title="Go to my GitHub"
+                                    target="_blank">GitHub</a>
+                            </li>
+                            <li>
+                                <img src="assets/img/discord_logo_icon.png" alt="Discord Icon" width="20" height="20">
+                                AliaksaPlh (<a class="discord-link" href="https://discord.com/channels/@me"
+                                    title="Discord" target="_blank"> <span class="discord-name">@aliaksaplh</span></a>)
+                            </li>
+                    </div>
+                    <div class="skills-conteiner">
+                        <h2 class="skills" id="skills">Skills</h2>
+                        <div class="p-skils-conteiner">
+                            <!-- <h3 class="p-skills">Programming and about IT skils:</h3> -->
+                            <ul class="skills-list">
+                                <li> <span class="skill-box">HTML</span> </li>
+                                <li><span class="skill-box">CSS</span></li>
+                                <li><span class="skill-box">GIT</span></li>
+                                <li><span class="skill-box">VS Code</span></li>
+                                <li><span class="skill-box">FIGMA</span></li>
+                                <li><span class="skill-box">PHOTOSHOP</span></li>
+                            </ul>
+                        </div>
+                        <!-- <div class="d-skils-conteiner">
+                            <h3 class="d-skills">Different skils</h3>
+                            <ul class="d-skils-list">
+                                <li>negotiation/telephone negotiation</li>
+                                <li>business correspondence</li>
+                                <li>making and concluding contracts</li>
+                                <li>tendering and production supply</li>
+                                <li>document flow</li>
+                                <li>customer focus</li>
+                            </ul>
+                        </div> -->
+                        <!-- <div class="strongs-conteiner">
+                            <h3 class="strongs">My strongs</h3>
+                            <ul class="strongs-list">
+                                <li>purposefulness</li>
+                                <li>diligence</li>
+                                <li>responsibility</li>
+                                <li>accuracy</li>
+                            </ul>
+                        </div> -->
+                        <div class="languages-conteiner">
+                            <h2 class="languages" id="languages">Languages</h2>
+                            <ul class="languages-list">
+                                <li> <span class="lang">Englis</span> - Upper-Intermediate (B2)</li>
+                                <li> <span class="lang">Russian</span> - Native (C2) </li>
+                                <li> <span class="lang">Belarusian</span> - Upper-Intermediate (B2)</li>
+                                <li> <span class="lang">Ukranian</span> - Elementary (A2)</li>
+                            </ul>
 
-        <article class="skills">
-            <h2>Skills and strongs</h2>
-            <div class="programming_skils_conteiner">
-                <h3>Programming and about IT skils:</h3>
-                <ul class="skills_list">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>GIT</li>
-                    <li>Visual Studio Code</li>
-                    <li>FIGMA</li>
-                    <li>PHOTOSHOP</li>
-                </ul>
+                        </div>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="d_skils_conteiner">
-                <h3>Different skils</h3>
-                <ul class="d_skils_list">
-                    <li>negotiation/telephone negotiation</li>
-                    <li>business correspondence</li>
-                    <li>making and concluding contracts</li>
-                    <li>tendering and production supply</li>
-                    <li>document flow</li>
-                    <li>customer focus</li>
-                </ul>
-            </div>
-            <div class="strongs_conteiner">
-                <h3>My strongs</h3>
-                <ul class="strongs_list">
-                    <li>purposefulness</li>
-                    <li>diligence</li>
-                    <li>responsibility</li>
-                    <li>accuracy</li>
-                </ul>
-            </div>
-            <div class="languages_conteiner">
-                <h3>Languages</h3>
-                <ul class="languages_list">
-                    <li>Englis - Upper-Intermediate (B2)</li>
-                    <li>Russian - Native (C2) </li>
-                    <li>Belarusian - Upper-Intermediate (B2)</li>
-                    <li>Ukranian - Elementary (A2)</li>
-                </ul>
-            </div>
-        </article>
-        <article class="code_example">
-            <h2>Code example</h2>
-            <pre>
+
+            <div class="right-container">
+                <div class="right-container-elements">
+                    <article class="summary">
+                        <h2 class="summary" id="summary">Summary:</h2>
+                        <p>I am a beginner in IT world, gaining to become a really good one
+                            <b>frontend developer</b>.
+                            <br> I have no commercial
+                            experience in IT, so I hope that the RS School courses would help me with my goal.
+                            <br>
+                            I had been working at supplies and making contracts sphere for 2 years till 2022 and after
+                            that
+                            job
+                            I
+                            decided to chenge my profession.
+                            <br>
+                            I have good communicative and soft skills, so now I'm working on my technicak ones.
+                            <br>
+                            My English is about B2 level and I practisice it once a week on speacking club with a tutor.
+                        </p>
+                    </article>
+                    <article class="education">
+                        <h2 class="education" id="education">Education</h2>
+                        <div class="university-conteiner">
+                            <h3>University</h3>
+                            <ul class="education-list">
+                                <li>2016-2020 <abbr title="Belarusian State Economic University">BSEU</abbr> Faculty of
+                                    Finance
+                                    and
+                                    Banking. Specialty - Economist</li>
+                                <!-- <li>2012-2016 English courses OkWORD from B1 to B2 </li>
+                    <li>2011-2014гг. Children's Music School No. 1 in Pinsk</li> -->
+                            </ul>
+                        </div>
+                        <div class="courses-conteiner">
+                            <h3 class="course">Courses</h3>
+                            <ul class="courses-list">
+                                <li>
+                                    2022 - <a href="https://www.udemy.com/course/photoshop-2021-f/"
+                                        title="Go to course on Udemy.com" target="_blank">Adobe
+                                        Photoshop 2023 -
+                                        from zero to result by Dmitrii Fokeev</a> </li>
+                                <li>
+                                    2022 - <a href="https://www.udemy.com/course/adobe-photoshop-2021/"
+                                        title="Go to course on Udemy.com" target="_blank">Adobe Photoshop
+                                        Course - (Advanced) by Dmitrii Fokeev</a>
+                                </li>
+                                <li>
+                                    2023 - <a href="https://www.udemy.com/course/web-figma-ui/"
+                                        title="Go to course on Udemy.com" target="_blank">Web design in Figma 2023
+                                        - from
+                                        scratch to result, UX/UI basics by Dmitrii Fokeev</a>
+                                </li>
+                                <li>
+                                    2023 - <a href="https://www.w3schools.com/html/default.asp" title="Go to course"
+                                        target="_blank">HTML W3schools</a>
+                                    Course
+                                </li>
+                                <li>
+                                    2023 - <a href="https://developer.mozilla.org/ru/docs/Web/HTML" title="Go to course"
+                                        target="_blank">MDN HTML </a>Course
+                                </li>
+                                <li>2023 -
+                                    <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS" title="Go to course"
+                                        target="_blank">MDN CSS </a>Course
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="code-example" id="code_example">
+                        <h2 class="code-example">Code example</h2>
+                        <pre>
                 <code class="code">
-                some code
+function multiply(a, b){
+return a * b
+}
                 </code>
-            </pre>
+                        </pre>
 
-        </article>
-        <article class="progects">
-            <h2>Projects</h2>
-            <p> <a href="https://aliaksaplh.github.io/rsschool-cv/" title="Go to project" target="_blank">CV for RS
-                    Scool course - JS/SE Pre-Scool2023Q2</a> </p>
-        </article>
+                    </article>
+                    <article class="progects" id="progects">
+                        <h2 class="progects">Projects</h2>
+                        <p> <a class="progects-link" href="https://aliaksaplh.github.io/rsschool-cv/"
+                                title="Go to project" target="_blank">CV for RS
+                                Scool course - JS/SE Pre-Scool2023Q2</a> </p>
+                    </article>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
-        <div class="rss_logo_conteiner">
-            <a class="rss_logo_link" href="https://rs.school/js/" title="JavaScript/Front-end Course" target="blank">
-                <img class="rss_logo" src="assets/img/rs_school_js.svg" alt="rs school label" width="100">
-            </a>
+        <div class="footer-container">
+            <div class="github-logo_conteiner footer-element">
+                <a class="github-logo-link" href="https://github.com/AliaksaPlh" title="Go to my GitHub"
+                    target="_blank">
+                    <img class="github-logo" src="assets/img/github_icon.png" alt="GitHub icon" width="50"></a>
+            </div>
+            <div class="discord-logo_conteiner footer-element">
+                <a class="discord-logo-link" href="https://discord.com/channels/@me" title="Discord" target="_blank">
+                    <img src="assets/img/discord_logo_icon.png" alt="Discord logo" width="50">
+                </a>
+            </div>
+            <div class="year-container footer-element"> <b>&copy; 2023</b> </div>
+            <div class="rss-logo-conteiner footer-element">
+                <a class="rss-logo-link" href="https://rs.school/js/" title="JavaScript/Front-end Course"
+                    target="blank">
+                    <img class="rss-logo" src="assets/img/rs_school_js.svg" alt="rs school label" width="100">
+                </a>
+            </div>
+
         </div>
-        <div class="github_logo_conteiner">
-            <a class="github_logo_link" href="https://github.com/AliaksaPlh" title="Go to my GitHub" target="_blank">
-                <img class="github_logo" src="assets/img/github_icon.png" alt="GitHub icon" width="50"> </a>
-        </div>
-        <div class="discord_logo_conteiner">
-            <a class="discord_logo_link" href="https://discord.com/channels/@me" title="Discord" target="_blank">
-                <img src="assets/img/discord_logo_icon.png" alt="Discord logo" width="50">
-            </a>
-        </div>
-        <div class="year_container"> <b>&copy; 2023</b> </div>
     </footer>
 </body>
 
