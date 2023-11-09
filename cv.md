@@ -35,6 +35,7 @@
 - CSS
 - PHOTOSHOP
 - FIGMA
+- JavaScript
 
 ```
 <!DOCTYPE html>
